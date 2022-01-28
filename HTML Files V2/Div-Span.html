@@ -1,0 +1,28 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div-Span</title>
+    <style>
+        span{
+            border: 1px solid red;
+        }
+        div{
+            border: 1px solid blue;
+        }
+    </style>
+
+</head>
+<body>
+    <!--Div block olduğu için bütün yeri kaplar fakat span sadece kendi alanı kadar etki yaratır.-->
+    <div>Bu bir div</div>
+
+    <p>Lorem ipsum <span>Kerem</span> dolor sit amet consectetur adipisicing elit. Officia, explicabo!</p>
+
+    <p>Lorem ipsum <div>Kerem</div> dolor sit amet consectetur adipisicing elit. Officia, explicabo!</p>
+
+
+
+</body>
+</html>
